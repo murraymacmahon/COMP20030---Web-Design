@@ -1,0 +1,31 @@
+html {
+  background-color: #ccffcc;
+}
+
+body {
+  max-width: 800px;
+  margin: 10px auto 20px auto;
+  padding: 0 10px;
+  background-color: #eeffee;
+  border: solid 1px #66aa66;
+  border-radius: 10px;
+  font-family: Arial;
+  box-shadow: -1px 3px 1px 2px #66aa66;
+}
+
+body.green-links nav a {
+  color: green;
+}
+body.orange-links nav a {
+  color: orange;
+}
+.centered, nav {
+  text-align: center;
+}
+.margined-image {
+  margin: 12px;
+}
+
+.sans, h1, h2, h3, h4 {
+  font-family: "Times New Roman";
+}
